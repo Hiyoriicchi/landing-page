@@ -34,11 +34,16 @@ a {
     color: #e5e7eb;
 }
 
+a:hover {
+    color: #3882F6;
+}
+
 .first {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    padding: 80px 160px 112px 160px;
+    padding: 64px 160px 112px 160px;
+    align-items: center;
 }
 
 .awesome {
@@ -48,14 +53,18 @@ a {
 .grey-text {
     color: #e5e7eb;
     font-size: 18px;
-    padding: 0px 64px 0px 0px;
+    padding: 0px 32px 0px 0px;
 }
 .image {
     flex: 1;
-    text-align: center;
-    background-color: rgb(113, 113, 113);
-    padding: 100px 0px;
-    color: #e5e7eb;
+}
+
+.image img {
+    width: 500px;
+    height: 320px;
+    margin: 0px 0px 0px 64px;
+    border-radius: 20px;
+   
 }
 
 .button {
@@ -65,6 +74,11 @@ a {
     padding: 6px 24px;
     border: none;
     border-radius: 6px;
+}
+
+button:hover {
+    background-color: #F9FAF8;
+    color:#3882F6;
 }
 .title {
     font-size: 48px;

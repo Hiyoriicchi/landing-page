@@ -1,1 +1,1 @@
-# landing-page
+project to make a landing page to showcase what tools i have learnt in html and css # landing-page
